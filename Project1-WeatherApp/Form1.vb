@@ -42,7 +42,7 @@
         'Show the image for Rainy weather; don't let the user click the btnRainy again.
         ResetState()
         picRain.Visible = True
-        btnRainy.Enabled = True
+        btnRainy.Enabled = False
         SetReport("Rain, rain, go away; come again another day!")
     End Sub
 
